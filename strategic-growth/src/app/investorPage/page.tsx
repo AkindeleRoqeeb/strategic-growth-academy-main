@@ -1,12 +1,9 @@
-// import React from "react";
-
 import Image from 'next/image'
 
 import Logoimage from "../image/corperate.jpg"
 import logo from "../image/logo.png"
-import { url } from 'inspector';
 
-function HomePage() {
+function investorPage() {
     return (
         <main>
             <nav className="bg-gray-800">
@@ -17,7 +14,7 @@ function HomePage() {
                             <button type="button" className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
                                 <span className="absolute -inset-0.5"></span>
                                 <span className="sr-only">Open main menu</span>
-                                {/* <!--
+                                {/* <!--    
             Icon when menu is closed.
 
             Menu open: "hidden", Menu closed: "block"
@@ -46,7 +43,7 @@ function HomePage() {
                                     <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">about</a>
                                     <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Team</a>
                                     <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Projects</a>
-                                    <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">real estate</a>
+                                    <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium bg-gray-600">Real estate</a>
                                     <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">investor</a>
                                     <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Calendar</a>
                                 </div>
@@ -81,12 +78,12 @@ function HomePage() {
               From: "transform opacity-100 scale-100"
               To: "transform opacity-0 scale-95"
           --> */}
-                                <div className="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="user-menu-button">
-                                    {/* <!-- Active: "bg-gray-100", Not Active: "" --> */}
-                                    <a href="#" className="block px-4 py-2 text-sm text-gray-700" role="menuitem" id="user-menu-item-0">Your Profile</a>
+                                {/* <div className="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="user-menu-button"> */}
+                                {/* <!-- Active: "bg-gray-100", Not Active: "" --> */}
+                                {/* <a href="#" className="block px-4 py-2 text-sm text-gray-700" role="menuitem" id="user-menu-item-0">Your Profile</a>
                                     <a href="#" className="block px-4 py-2 text-sm text-gray-700" role="menuitem" id="user-menu-item-1">Settings</a>
-                                    <a href="#" className="block px-4 py-2 text-sm text-gray-700" role="menuitem" id="user-menu-item-2">Sign out</a>
-                                </div>
+                                    <a href="#" className="block px-4 py-2 text-sm text-gray-700" role="menuitem" id="user-menu-item-2">Sign out</a> */}
+                                {/* </div> */}
                             </div>
                         </div>
                     </div>
@@ -101,22 +98,14 @@ function HomePage() {
                         <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Projects</a>
                         <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">real estate</a>
                         <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Calendar</a>
-                        
+
                     </div>
                 </div>
             </nav>
-
-            {/* <div>
-                <div>
-                    <h4>
-                        life 
-                    </h4>
-                </div>
-            </div> */}
-            <div className='img h-lvh h-screen h-dvh grid grid-flow-col place-content-center'>
+            <div className='img  grid grid-flow-col place-content-start p-32'>
                 <div className=' text-white'>
                     <h3 className='help text-3xl text-start text-white font-bold italic pt-4'>
-                        Grow your skills,
+                        DIVERSIFIED INVESTMENTS,
                         define your future
                     </h3>
                     <p className='py-3 text-xl text-start text-zinc-50 pt-5'>
@@ -126,35 +115,94 @@ function HomePage() {
                     </p>
                     <div className='py-3 flex gap-3 flex-wrap text-center'>
                         <button className="rounded-lg bg-sky-900 text-white p-3">book now</button>
-                        <a className='text-white text-center pt-3' href="">know more</a>
+                        <a className='text-white text-center p-3 border border-solid rounded-md' href="">know more</a>
                     </div>
                     <span className='text-white'>you will get 30 days trial.</span>
                 </div>
-
-                {/* booking */}
-                
-                <form className='bg-transparent pt-10 text-white' id='form'>
-                    <h4>book appointment</h4>
-                    <h4>Name</h4>
-                    <input className='w-full' type="name" />
-                    <h4>email</h4>
-                    <input type="email" className='w-full' />
-                    <h4>department</h4>
-                    <input type="text" className='w-full' />
-                    <h4>time</h4>
-                    <input type="time" className='w-full text-center text-black' /> <br />
-                    <input type="submit" className='bg-red-600 p-2 w-96 w-full mt-4 rounded-lg' />
-                </form>
             </div>
-            {/* <div>kuhbujh</div> */}
+            <div className='text-center'>
+                <h3 className='text-center pt-10 font-bold text-2xl'>DIVERSIFIED
+                    INVESTMENTS</h3>
+                <p>
+                    Tired of eggs in one basket? Crack open
+                    a world of possibilities with Strategic
+                    Growth Academy investment packages! <br />
+                    We help you diversify your portfolio
+                    across high-growth markets.
+                </p>
+            </div>
+            <div className='flex flex-row text-start justify-evenly align-middle mb-11 mt-5 '>
+                <div className='border border-solid border-emerald-950 rounded-md'>
+                    <h4 className='font-semibold bg-gray-500 p-10'>
 
+                        Monthly Momentum
+                    </h4>
+                    {/* <hr className=' mb-3 bg-zinc-600  h-1' /> */}
+                    <li>
+                        Start small and scale up.
+                    </li>
+                    <li>
+                        10% monthly return,
+                    </li>
+                    <li>
+                        ideal for beginners.
+                    </li>
+                </div>
 
+                <div className='border border-solid border-emerald-950  rounded-md
+                    
+                '>
+                    <h4 className='font-semibold bg-gray-500 p-10'>
+
+                        Quarterly Catalyst
+                    </h4>
+                    {/* <hr className=' mb-3 bg-zinc-600  h-1' /> */}
+                    <li>
+                        Start small and scale up.
+                    </li>
+                    <li>
+                        10% monthly return,
+                    </li>
+                    <li>
+                        ideal for beginners.
+                    </li>
+                </div>
+                <div className='border border-solid border-emerald-950  rounded-md
+                    '>
+                    <h4 className='font-semibold bg-gray-500 p-10'>
+
+                        Semi-Annual Alpha
+                    </h4>
+                    {/* <hr className=' mb-3 bg-zinc-600  h-1' /> */}
+                    <div>
+                    <li>
+                        Start small and scale up.
+                    </li>
+                    <li>
+                        10% monthly return,
+                    </li>
+                    <li>
+                        ideal for beginners.
+                    </li>
+                    </div>
+                </div>
+            </div>
+            <div className='text-center flex flex-col justify-items-center'>
+                <div>
+                <h4 className='font-bold text-2xl'>who are we </h4>
+                <span>
+                    "Secure Your Investment with
+                    Confidence - Our Land Serves
+                    as Collateral.
+                    "
+                </span>
+                </div>
+                <div className='flex justify-center'>
+                <Image className="h w-96 align-middle " src={Logoimage} alt="" />
+                </div>
+            </div>
         </main>
     )
 }
 
-// tabindex="-1"
-// tabindex="-1"
-// tabindex="-1"
-
-export default HomePage;
+export default investorPage;

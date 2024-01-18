@@ -2,3 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+    /* .help {
+      color: blue;
+    } */
+
+    .img{
+        background: url('../app/image/corperate1.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
