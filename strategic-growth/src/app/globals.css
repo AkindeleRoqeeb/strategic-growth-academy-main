@@ -8,10 +8,22 @@
     } */
 
     .img{
-        background: url('../app/image/corperate1.png');
+        background: url('../app/image/blur.png');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
     }
+
+    .investorImg {
+        background: url('../app/image/investors.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .background-custom {
+        background-color: rgba(115, 115, 115, 0.436);
+    }
+
 }
 

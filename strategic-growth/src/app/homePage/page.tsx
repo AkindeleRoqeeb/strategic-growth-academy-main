@@ -113,36 +113,44 @@ function HomePage() {
                     </h4>
                 </div>
             </div> */}
-            <div className='img h-lvh h-screen h-dvh grid grid-flow-col place-content-center'>
-                <div className=' text-white'>
+            <div className='img h-full md:h-dvh grid lg:grid-cols-2 gap-10 lg:px-24 sm:p-10 p-10 md:grid-flow-col place-content-center
+                capitalize
+            '>
+                <div className=' text-white md:col-span-1 md:pt-16'>
                     <h3 className='help text-3xl text-start text-white font-bold italic pt-4'>
                         Grow your skills,
                         define your future
                     </h3>
-                    <p className='py-3 text-xl text-start text-zinc-50 pt-5'>
+                    <p className='py-3 text-xl text-start text-zinc-50 pt-5 leading-8'>
                         Imagine a path where every step is fueled by passion,
                         confidence, and purpose. <br /> That's the power of skill
                         development.
                     </p>
-                    <div className='py-3 flex gap-3 flex-wrap text-center'>
-                        <button className="rounded-lg bg-sky-900 text-white p-3">book now</button>
-                        <a className='text-white text-center pt-3' href="">know more</a>
+                    <div className='py-3 flex gap-3 flex-wrap text-center my-5 '>
+                        <button className=" cursor-pointer rounded-lg bg-sky-900 text-white capitalize p-3">book now</button>
+                        <a className='text-white text-center border-solid border
+                            rounded-sm p-3 font-bold cursor-pointer' href="">know more</a>
                     </div>
-                    <span className='text-white'>you will get 30 days trial.</span>
+                    <span className='text-white cursor-pointer'>you will get 30 days trial.</span>
+                    <div>
+                        
+                    </div>
                 </div>
 
                 {/* booking */}
                 
-                <form className='bg-transparent pt-10 text-white' id='form'>
+                <form className='bg-transparent pt-10 rounded-md p-10 shadow-blue-200 shadow-2xl gap-2 grid
+                    text-white md:col-span-2 bg-gradient-to-r from-gray-700 to-gray-400' 
+                    id='form'>
                     <h4>book appointment</h4>
                     <h4>Name</h4>
-                    <input className='w-full' type="name" />
+                    <input placeholder='enter your full name' className='w-full rounded-sm h-10 text-black p-3 font-bold' type="name" />
                     <h4>email</h4>
-                    <input type="email" className='w-full' />
+                    <input placeholder='enter your email' type="email" className='w-full rounded-none h-10 text-black p-3 font-bold' />
                     <h4>department</h4>
-                    <input type="text" className='w-full' />
+                    <input placeholder='enter intrest' type="text" className='w-full rounded-sm h-10 text-black p-3 font-bold' />
                     <h4>time</h4>
-                    <input type="time" className='w-full text-center text-black' /> <br />
+                    <input type="time" className='w-full text-center text-black rounded-sm h-10' /> <br />
                     <input type="submit" className='bg-red-600 p-2 w-96 w-full mt-4 rounded-lg' />
                 </form>
             </div>
