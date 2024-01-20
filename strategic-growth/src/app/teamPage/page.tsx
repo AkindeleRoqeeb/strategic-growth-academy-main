@@ -149,162 +149,58 @@ function investorPage() {
                     <input type="submit" className='bg-red-600 cursor-pointer p-2 w-96 w-full mt-4 rounded-lg' />
                 </form>
             </div>
-            <div className='text-center'>
-                <h3 className='text-center pt-10 font-bold text-2xl'>DIVERSIFIED
-                    INVESTMENTS</h3>
-                <p className='py-5'>
-                    Tired of eggs in one basket? Crack open
-                    a world of possibilities with Strategic
-                    Growth Academy investment packages! <br />
-                    We help you diversify your portfolio
-                    across high-growth markets.
-                </p>
-            </div>
-            <div className='text-center font-bold py-8 text-2xl'>
-                OUR POWER PACKAGE
-            </div>
-            <div className='text-start mb-11 mt-5 grid lg:grid-flow-col md:grid-flow-col md:px-10 gap-7
-                place-content-center
-            '>
-                <div className='border border-solid border-emerald-950 rounded-lg rounded-b-lg shadow-xl'>
-                    <h4 className='font-semibold bg-gray-700 text-white rounded-t-lg py-6 text-center'>
-                        Monthly Momentum
-                    </h4>
-                    <div className='px-9 py-4 bg-slate-50 text-black leading-9 rounded-b-lg'>
-                        <li>
-                            Start small and scale up.
-                        </li>
-                        <li>
-                            10% monthly return,
-                        </li>
-                        <li>
-                            ideal for beginners.
-                        </li>
-                    </div>
+            <section className='place-content-center my-10'>
+                <div className='text-center'>
+                    <span>our team</span>
+                    <h4>meet our clonify team</h4>
+                    <p>
+                        there are many variation of passages where we provide surport <br />
+                        no matter the circumstances
+                    </p>
                 </div>
-
-                <div className='border border-solid border-emerald-950 rounded-b-lg rounded-lg shadow-xl'>
-                    <h4 className='font-semibold bg-gray-700 text-white rounded-t-lg py-6 text-center'>
-                        Quarterly Catalyst
-                    </h4>
-                    <div className='px-9 py-4 bg-slate-50 text-black leading-9 rounded-b-lg'>
-                        <li>
-                            Build a solid base.
-                        </li>
-                        <li>
-                            36% quarterly return,
-                        </li>
-                        <li>
-                            perfect for consistent growth.
-                        </li>
-                    </div>
-                </div>
-                <div className='border border-solid border-emerald-950 rounded-b-lg rounded-lg shadow-xl'>
-                    <h4 className='font-semibold bg-gray-700 text-white rounded-t-lg py-6 text-center'>
-                        Semi-Annual Alpha
-                    </h4>
-                    {/* <hr className=' mb-3 bg-zinc-600  h-1' /> */}
+                <div className='mx-7 grid gap-5 md:grid-flow-col lg:grid-cols-4 md:grid-cols-4'>
                     <div>
-                        <div className='px-9 py-4 bg-slate-50 text-black leading-9 rounded-b-lg'>
-                            <li>
-                                For the ambitious investor.
-                            </li>
-                            <li>
-                                84% bi-annual return,
-                            </li>
-                            <li>
-                                maximize your
-                                long-term potential.
-                            </li>
+                        <Image src={Logoimage} alt='' />
+                        <h4>akindele roqeeb</h4>
+                        <span>developer</span> <br/>
+                        <small>one of the mastermind of it all</small>
+                        <div>
+                            {/* icon */}
                         </div>
+
+                    </div>
+                    <div>
+                        <Image src={Logoimage} alt='' />
+                        <h4>akindele roqeeb</h4>
+                        <span>developer</span> <br/>
+                        <small>one of the mastermind of it all</small>
+                        <div>
+                            {/* icon */}
+                        </div>
+
+                    </div>
+                    <div>
+                        <Image src={Logoimage} alt='' />
+                        <h4>akindele roqeeb</h4>
+                        <span>developer</span> <br/>
+                        <small>one of the mastermind of it all</small>
+                        <div>
+                            {/* icon */}
+                        </div>
+
+                    </div>
+                    <div>
+                        <Image src={Logoimage} alt='' />
+                        <h4>akindele roqeeb</h4>
+                        <span>developer</span> <br/>
+                        <small>one of the mastermind of it all</small>
+                        <div>
+                            {/* icon */}
+                        </div>
+
                     </div>
                 </div>
-            </div>
-            <div className='text-center flex flex-col justify-items-center'>
-                <div className='leading-9 my-5'>
-                    <h4 className='font-bold text-2xl'>who are we </h4>
-                    <span>
-                        "Secure Your Investment with
-                        Confidence - Our Land Serves
-                        as Collateral.
-                        "
-                    </span>
-                </div>
-                <div className='grid md:grid-flow-col place-content-center gap-10 '>
-                    <Image className="h-80 w-96 align-middle " src={Logoimage} alt="" />
-                    <Image className="h-80 w-96 align-middle " src={candlechat3} alt="" />
-                </div>
-                {/* INVESTMENTOPPORTUNITIES */}
-                <div className='my-10'>
-                    <span className='mb-10 font-bold'>TYPE OF INVESTMENT OPPORTUNITIES</span>
-                    <div className='grid md:grid-flow-col lg:grid-flow-col gap-4 mt-10 sm:px-10 place-content-center'>
-                        <div className='p-3 cursor-pointer bg-slate-500 text-white rounded-md sm:w-auto'>
-                            STOCKS&nbsp;&&nbsp;FOREX
-                        </div>
-                        <div className='p-3 cursor-pointer bg-slate-500 text-white rounded-md w-96 sm:w-auto'>
-                            REAL&nbsp;ESTATE
-                        </div>
-                        <div className='p-3 cursor-pointer bg-slate-500 text-white rounded-md w-96 sm:w-auto'>
-                            AI&nbsp;&&nbsp;TECH
-                        </div>
-                        <div className='p-3 cursor-pointer bg-slate-500 text-white rounded-md w-96 sm:w-auto'>
-                            CRYPTO CURRENCIES
-                        </div>
-                        <div className='p-3 cursor-pointer bg-slate-500 text-white rounded-md w-96 sm:w-auto'>
-                            STARTUPS
-                        </div>
-                        <div className='p-3 cursor-pointer bg-slate-500 text-white rounded-md w-96 sm:w-auto'>
-                            ETFS
-                        </div>
-                    </div>
-                </div>
-                <div className='place-content-center flex mt-5'>
-                    <Image className="h-80 w-96 md:w-8/12 lg:w-9/12 align-middle " src={candlechat6} alt="" />
-                </div>
-            </div>
-            <div className='place-content-center'>
-                <h4 className='text-center'>WHY INVEST?</h4>
-                <div className='text-center my-5 md:mx-6 lg:mx-11 grid md:grid-flow-col md:grid-cols place-content-center gap-5'>
-                    <div className='flex rounded-md border-solid border-2 border-white-500 p-2 gap-2' >
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-house-check place-self-center" viewBox="0 0 16 16">
-                            <path d="M7.293 1.5a1 1 0 0 1 1.414 0L11 3.793V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v3.293l2.354 2.353a.5.5 0 0 1-.708.708L8 2.207l-5 5V13.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 1 0 1h-4A1.5 1.5 0 0 1 2 13.5V8.207l-.646.647a.5.5 0 1 1-.708-.708z" />
-                            <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7m1.679-4.493-1.335 2.226a.75.75 0 0 1-1.174.144l-.774-.773a.5.5 0 0 1 .708-.707l.547.547 1.17-1.951a.5.5 0 1 1 .858.514" />
-                        </svg>
-                        <span>Wealth Accumulation</span>
-                    </div>
-                    <div className='flex rounded-md border-solid border-2 border-white-500 p-2 gap-2'>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-check2-circle place-self-center" viewBox="0 0 16 16">
-                            <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0" />
-                            <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z" />
-                        </svg>
-                        <span>
-                            Financial Security
-                        </span>
-                    </div>
-                    <div className='flex rounded-md border-solid border-2 border-white-500 p-2 gap-2'>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-person-check place-self-center" viewBox="0 0 16 16">
-                            <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7m1.679-4.493-1.335 2.226a.75.75 0 0 1-1.174.144l-.774-.773a.5.5 0 0 1 .708-.708l.547.548 1.17-1.951a.5.5 0 1 1 .858.514M11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0M8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4" />
-                            <path d="M8.256 14a4.5 4.5 0 0 1-.229-1.004H3c.001-.246.154-.986.832-1.664C4.484 10.68 5.711 10 8 10q.39 0 .74.025c.226-.341.496-.65.804-.918Q8.844 9.002 8 9c-5 0-6 3-6 4s1 1 1 1z" />
-                        </svg>
-                        <span>Passive Income</span>
-                    </div>
-                    <div className='flex rounded-md border-solid border-2 border-white-500 p-2 gap-2'>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-check-square place-self-center" viewBox="0 0 16 16">
-                            <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z" />
-                            <path d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425z" />
-                        </svg>
-                        <span>
-                            Economic Growth
-                        </span>
-                    </div>
-                    <div className='flex rounded-md border-solid border-2 border-white-500 p-2 gap-2'>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-ui-checks-grid place-self-center" viewBox="0 0 16 16">
-                            <path d="M2 10h3a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1m9-9h3a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-3a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1m0 9a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1zm0-10a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h3a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM2 9a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h3a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2zm7 2a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-3a2 2 0 0 1-2-2zM0 2a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm5.354.854a.5.5 0 1 0-.708-.708L3 3.793l-.646-.647a.5.5 0 1 0-.708.708l1 1a.5.5 0 0 0 .708 0z" />
-                        </svg>
-                        <span>Tax Benefits</span>
-                    </div>
-                </div>
-            </div>
+            </section>
             {/* contect */}
             <form action="" className='grid md:grid-flow-col place-content-center gap-5 py-10 p-6 my-10'>
                 <div className='flex flex-col gap-5'>
@@ -326,7 +222,7 @@ function investorPage() {
                     </div>
                     <div className='flex gap-3'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-envelope place-self-center" viewBox="0 0 16 16">
-                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
                         </svg>
                         <h4> Strategicgrowthinstitution@Gmail.Com</h4>
                     </div>

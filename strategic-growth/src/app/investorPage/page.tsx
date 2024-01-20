@@ -306,7 +306,11 @@ function investorPage() {
                 </div>
             </div>
             {/* contect */}
-            <form action="" className='grid md:grid-flow-col place-content-center gap-5 py-10 p-6 my-10'>
+            <div>
+                <div className='capitalize mt-10 text-center font-bold'>
+                    get in touch
+                </div>
+            <form action="" className='grid md:grid-flow-col place-content-center gap-5 py-10 p-6 my-5'>
                 <div className='flex flex-col gap-5'>
                     <input type="text" className='rounded-sm w-80 text-black p-2 bg-slate-200' placeholder='enter your name' />
                     <input type="text" className='rounded-sm w-80 text-black p-2 bg-slate-200' placeholder='enter your name' />
@@ -316,6 +320,7 @@ function investorPage() {
                     <textarea name="" id="" placeholder='enter your information here' className='text-black h-40 bg-slate-200 p-5 w-80 md:w-72 rounded-sm'></textarea>
                 </div>
             </form>
+            </div>
             <footer className=' p-2 pb-6 bg-gray-600 grid md:grid-flow-col lg:grid-flow-col place-content-center gap-11'>
                 <div className=''>
                     <div className='flex gap-3'>
