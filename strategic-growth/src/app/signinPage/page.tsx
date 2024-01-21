@@ -1,6 +1,8 @@
 
 import Image from "next/image";
 
+import Link from "next/link";
+
 import Logoimage from "../image/IMG-20240113-WA0016.jpg"
 import logo from "../image/logo.png"
 import facebookicon1 from "../image/facebook3-fotor-bg-remover-20240120124157.png"

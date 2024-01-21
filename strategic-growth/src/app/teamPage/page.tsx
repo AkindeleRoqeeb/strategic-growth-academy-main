@@ -108,47 +108,6 @@ function investorPage() {
                     </div>
                 </div>
             </nav>
-            <div className='investorImg  grid lg:grid-cols-2 gap-10 lg:px-24 sm:p-10 p-10 md:grid-flow-col place-content-center
-                capitalize
-            '>
-                <div className=' text-white background-custom p-6 rounded-md
-                md:col-span-1 md:pt-16'>
-                    <h3 className='help text-3xl text-start font-bold italic pt-4'>
-                        "Secure Your Investment with
-                        Confidence - Our Land Serves
-                        as Collateral.
-                        "
-                    </h3>
-                    <p className='py-3 text-xl text-start text-zinc-50 pt-5 leading-8'>
-                        Imagine a path where every step is fueled by passion,
-                        confidence, and purpose. <br /> That's the power of skill
-                        development.
-                    </p>
-                    <div className='py-3 flex gap-3 flex-wrap text-center my-5 '>
-                        <button className=" cursor-pointer rounded-lg bg-sky-900 text-white capitalize p-3">book now</button>
-                        <a className='text-white text-center border-solid border
-                            rounded-sm p-3 font-bold cursor-pointer' href="">know more</a>
-                    </div>
-                    <span className='text-white cursor-pointer'>you will get 30 days trial.</span>
-                </div>
-
-                {/* booking */}
-
-                <form className='bg-transparent pt-10 rounded-md p-10 shadow-blue-200 shadow-2xl gap-2 grid
-                    text-white md:col-span-2 bg-gradient-to-r from-gray-700 to-gray-400'
-                    id='form'>
-                    <h4 className='text-center font-bold'>book appointment</h4>
-                    <label>Name</label>
-                    <input placeholder='enter your full name' className='w-full rounded-sm h-10 text-black p-3 font-bold' type="name" />
-                    <label>email</label>
-                    <input placeholder='enter your email' type="email" className='w-full rounded-none h-10 text-black p-3 font-bold' />
-                    <label>department</label>
-                    <input placeholder='enter intrest' type="text" className='w-full rounded-sm h-10 text-black p-3 font-bold' />
-                    <label>time</label>
-                    <input type="time" className='w-full text-center text-black rounded-sm h-10' /> <br />
-                    <input type="submit" className='bg-red-600 cursor-pointer p-2 w-96 w-full mt-4 rounded-lg' />
-                </form>
-            </div>
             <section className='place-content-center my-10'>
                 <div className='text-center'>
                     <span>our team</span>
@@ -158,7 +117,7 @@ function investorPage() {
                         no matter the circumstances
                     </p>
                 </div>
-                <div className='mx-7 grid gap-5 md:grid-flow-col lg:grid-cols-4 md:grid-cols-4'>
+                <div className='place-content-center mx-7 grid gap-5 md:grid-flow-col lg:grid-cols-4 md:grid-cols-4'>
                     <div>
                         <Image src={Logoimage} alt='' />
                         <h4>akindele roqeeb</h4>
@@ -202,7 +161,11 @@ function investorPage() {
                 </div>
             </section>
             {/* contect */}
-            <form action="" className='grid md:grid-flow-col place-content-center gap-5 py-10 p-6 my-10'>
+            <section>
+                <div className='text-center font-bold '>
+                    get in touch
+                </div>
+            <form action="" className='grid md:grid-flow-col place-content-center gap-5 py-10 p-6 my-6'>
                 <div className='flex flex-col gap-5'>
                     <input type="text" className='rounded-sm w-80 text-black p-2 bg-slate-200' placeholder='enter your name' />
                     <input type="text" className='rounded-sm w-80 text-black p-2 bg-slate-200' placeholder='enter your name' />
@@ -212,6 +175,7 @@ function investorPage() {
                     <textarea name="" id="" placeholder='enter your information here' className='text-black h-40 bg-slate-200 p-5 w-80 md:w-72 rounded-sm'></textarea>
                 </div>
             </form>
+            </section>
             <footer className=' p-2 pb-6 bg-gray-600 grid md:grid-flow-col lg:grid-flow-col place-content-center gap-11'>
                 <div className=''>
                     <div className='flex gap-3'>
